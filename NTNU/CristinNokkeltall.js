@@ -11,7 +11,7 @@ define(function () {
     //Opptegning av elementene
     DataCristin.prototype.draw = function (oControlHost) {
 
-        // henting av verdi fra prompt
+        //henting av verdi fra prompt
         var promptControls = oControlHost.page.getAllPromptControls();
         var promptVerdi = promptControls[0].getValues(true)[0];
         var urlPARAM = promptVerdi.use;
